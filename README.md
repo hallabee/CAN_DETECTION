@@ -45,17 +45,17 @@ Inference: To run detection on new images or videos using the trained weights, e
 ```bash
 python detect.py --source <video_or_image_path> --weights runs/train/best.pt
 ```
-##Results
+## Results
    In the initial experiment (Exp1), the model achieved:
 
    Accuracy: 94%
    Precision: 89%
 The results demonstrate that the model can reliably detect cans, even in challenging conditions.
 
-##Future Work
+## Future Work
    Expand the dataset to include a wider variety of can types and environments.
    Integrate the AI into recycling lines for real-time sorting and waste management.
    Develop an edge AI system for deployment in low-resource environments.
 
-##License
+## License
    This project is licensed under the MIT License - see the LICENSE file for details.
