@@ -49,6 +49,7 @@ python detect.py --source <video_or_image_path> --weights runs/train/best.pt
    In the initial experiment (Exp1), the model achieved:
 
    Accuracy: 94%
+   
    Precision: 89%
    
 The results demonstrate that the model can reliably detect cans, even in challenging conditions.
